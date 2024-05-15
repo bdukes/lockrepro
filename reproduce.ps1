@@ -1,5 +1,7 @@
 param([int]$DelaySeconds = 30)
 
+git fetch --all;
+
 . "$PSScriptRoot/run.ps1";
 
 while ($true)
